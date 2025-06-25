@@ -24,25 +24,47 @@ Sales prediction for food items sold at various stores
 We used linear regression and random forest regressor
 the metrics for random forest were as followig:
 **Results of the tuned random forests Regression Metrics: Training Data**
+
 MAE = 653.581
+
 MSE = 868,838.966
+
 RMSE = 932.115
+
 R^2 = 0.706
 
 **Regression Metrics: Test Data**
+
 MAE = 734.559
+
 MSE = 1,118,876.716
+
 RMSE = 1,057.770
+
 R^2 = 0.594
 
 we can see that the model is over fitting
+
 However, i
 
 Refer to the metrics to describe how well the model would solve the business problem
 
 ## Recommendations:
 
-More of your own text here
+We will use the tunned random forest, because it is less overfitting than the untuned and the linear regression model
 
+Yet, maybe the parameters should be changed to get better results. However, it took 15 minutes for this model to perform, I don't think it is practical to change the parameters again
+
+Our model can explain about 60% of the testing data, and 70% from the training data it explains better on the training data, but still makes mistakes on the testing data.
+
+MAE Mean aboslute Error
+
+for training data MAE is 653.581, and  734.559 for test data.
+
+this means that if we add all the errors (differnce between prediction and actual) in the testing data and took the average for them, the resul is 653 same for the test data, but with an average of 734. that means that the model is performing better on the training data then the testing data
+
+Why you selected this metric to explain to your stakeholder?
+
+Mean absolute error is the easiest metric to comprehend. Explaining it makes sense. it is the mean of the sum of all errors. on average, the training data prediction is different than the actual value by 653 point
 -   
 
