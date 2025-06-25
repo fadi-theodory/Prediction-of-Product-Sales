@@ -21,8 +21,22 @@ Sales prediction for food items sold at various stores
 
 ## Model
 
-We used linear regression and random forest 
-Report the most important metrics
+We used linear regression and random forest regressor
+the metrics for random forest were as followig:
+**Results of the tuned random forests Regression Metrics: Training Data**
+MAE = 653.581
+MSE = 868,838.966
+RMSE = 932.115
+R^2 = 0.706
+
+**Regression Metrics: Test Data**
+MAE = 734.559
+MSE = 1,118,876.716
+RMSE = 1,057.770
+R^2 = 0.594
+
+we can see that the model is over fitting
+However, i
 
 Refer to the metrics to describe how well the model would solve the business problem
 
@@ -30,5 +44,5 @@ Refer to the metrics to describe how well the model would solve the business pro
 
 More of your own text here
 
-- 
+-   
 
