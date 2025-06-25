@@ -1,5 +1,4 @@
 # Tuned random forest for Prediction-of-Product-Sales
-## Subtitle describing the analysis 
 **Author**: Fadi Theodory
 ### Business problem:
 The first project will be a sales prediction for food items sold at various stores. The goal of this is to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
@@ -68,3 +67,7 @@ Why you selected this metric to explain to your stakeholder?
 Mean absolute error is the easiest metric to comprehend. Explaining it makes sense. it is the mean of the sum of all errors. on average, the training data prediction is different than the actual value by 653 point
 -   
 
+## For further information
+Should you need more clarifications,  please contact us at 
+
+ 
