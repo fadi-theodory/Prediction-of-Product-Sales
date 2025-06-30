@@ -67,6 +67,33 @@ Why you selected this metric to explain to your stakeholder?
 Mean absolute error is the easiest metric to comprehend. Explaining it makes sense. it is the mean of the sum of all errors. on average, the training data prediction is different than the actual value by 653 point
 -   
 
+##We determined the best coefficient for both linear regression function and random forest
+
+### Linear Regression
+![Linearregression coeff](https://github.com/user-attachments/assets/ab9d0c83-d97d-4fbb-8140-c0f54590f59a)
+
+the top impactful features are 
+
+
+1.  Outlet Identifier- out27. product sold in the outlet 27 increases  the sales increase by `585`. 
+
+2.   OUTLET TYPE supermarket type 3 same as before
+3.   Outlet type grocery store. for items sold in outlet type grocery store, the saes will decrease by `884.691`
+
+
+### Random forest
+![Random forrest coeff](https://github.com/user-attachments/assets/a45b83ee-fc0c-4a6a-bc68-94ff9819c522)
+
+The most important 5 features are:
+
+
+
+1.   Item MRP 
+2.   Outlet type grocery store
+3.   Item Visibility
+4.   Item weight
+5.   outlet Type supermarket 3
+
 ## For further information
 Should you need more clarifications,  please contact us at 
 
